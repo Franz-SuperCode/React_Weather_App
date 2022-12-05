@@ -1,0 +1,11 @@
+img {
+    width: 30%;
+}
+
+.home {
+    border: 1px black solid;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    margin: 2rem auto;
+}
