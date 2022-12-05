@@ -1,6 +1,5 @@
 import './App.css';
 // Davor im Terminal npm install react-router-dom
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
 // import Random from './pages/Random';
 // import Uebersicht from './pages/Uebersicht';
