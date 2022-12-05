@@ -28,6 +28,9 @@ function Home() {
     const chooseCityBerlin = () => {
         setCityInput("Berlin")
     }
+    const chooseCityDuesseldorf = () => {
+        setCityInput("Düsseldorf")
+    }
 
 
     let iconID = weatherObject?.weather[0].icon
@@ -37,6 +40,7 @@ function Home() {
 
             <button onClick={chooseCityHamburg}>Hamburg</button>
             <button onClick={chooseCityBerlin}>Berlin</button>
+            <button onClick={chooseCityDuesseldorf}>Düsseldorf</button>
 
 
 
